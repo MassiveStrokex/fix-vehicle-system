@@ -1,0 +1,17 @@
+<meta>
+	 <script type="client" src="sourceC.lua" cache="false" />
+	 <script type="server" src="sourceS.lua" cache="false" />
+	 		<file src="fonts/Lobster-Regular.ttf" />
+
+	<file src="index.html" />
+
+	<file src="js/mtaevents.js" />
+	<file src="js/uikit.min.js" />
+	<file src="logo.png" />
+	
+	<file src="css/style.css" />
+	
+	
+	
+	
+</meta>

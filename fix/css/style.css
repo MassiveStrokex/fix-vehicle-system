@@ -1,0 +1,80 @@
+*:not(input):not(textarea) {
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+
+
+@font-face {
+    font-family: 'Lobster', cursive;
+    src: url('.../fonts/Lobster-Regular.ttf'); 
+  }
+  
+
+.main-1{
+    border-color: rgb(61, 228, 240);
+    border-left-style:groove;
+    border-right-style:groove;
+    border-bottom-style:groove;
+    margin-top: 250px;
+    margin-left: 400px;
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: 250px;
+    border-radius: 16px;
+}
+
+
+.main-1 img{
+margin-top: -50px;
+height: 220px;
+width: 350px;
+margin-left: 155px;
+
+}
+
+
+
+.main-1 h1{
+	border-radius: 16px;
+    text-align: center;
+    background-color: rgb(61, 228, 240);
+    font-family: 'Lobster', cursive;
+    height: 45px;
+    width: 501  ;
+    color: white;
+    border-radius: 10px 10px 1px 1px;
+
+}
+
+.main-1 button{
+    font-family: 'Lobster', cursive;
+    font-size: 22px;
+    border-color: rgb(61, 228, 240);
+    margin-left: 11px;
+    height: 40px;
+    width: 155px;
+    margin-top: -170px;
+    background-color: rgb(61, 228, 240);
+    color: white;
+    background-color: #191919;
+    border-radius: 65px;
+}
+
+.main-1 button:hover{
+  box-shadow: 0 1px 25px 0 #15f4ee , 0 1px 5px 0 #15f4ee;
+  text-shadow: 0 0 5px #15f4ee, 0 0 5px #15f4ee;  
+         
+ 
+}
+
+.main-1 h2{
+    font-family: 'Lobster', cursive;
+    margin-top: -100px;
+    color: white;
+    margin-left: 10px;
+    font-size: 35px;
+}

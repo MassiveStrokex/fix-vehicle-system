@@ -1,0 +1,33 @@
+
+<html lang="tr">
+<head>
+<script type="text/javascript">
+
+document.getElementById("nesne").setAttribute("unselectable", "on");
+</script>
+<title>document</title>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div clas="main2">
+
+    </div>
+<div class="main-1">
+  <h1>Tamir İstasyonu</h1>
+<img src="logo.png">
+<button onclick="mta.triggerEvent('t.tamiret');">Tamir Et</button>
+<br>
+<br>
+<br>
+<br>
+<button onclick="mta.triggerEvent('tamir.kapat');" uk-close>Kapat</button>
+
+<h2>Toplam: <a id = "tamirfiyat"></a></h2>
+</div>
+</body>
+</html>
